@@ -1,0 +1,30 @@
+@import "../../assets/css/index.scss";
+
+.main-area {
+  .heroSection {
+    background-image: url("../../assets/images/hero-section.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    height: 284px;
+  }
+  .api-section {
+    .api-content {
+      display: flex;
+    }
+  }
+
+  .bussiness-product-section{
+    background-image: url(../../assets/images/busi-background.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    height: 651px;
+    .bussiness-card-content{
+        display: flex;
+        .bussiness-card{
+            border-bottom: 5pX solid $yellow-heading;
+        }
+    }
+  }
+}
