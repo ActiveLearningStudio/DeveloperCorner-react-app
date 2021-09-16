@@ -1,7 +1,12 @@
 import React from "react";
 import ApiSection from "./apiContent";
-import BusinessProduct from './businessProduct';
+import BusinessProduct from "./businessProduct";
+import Technology from "./technology";
 import "./styles.scss";
+import DeveloperTool from "./developerTool";
+import HelpArea from "./helpSection";
+import GetStarted from "./getStarted";
+import Footer from "../../components/footer/index";
 
 const Index = () => {
   return (
@@ -23,7 +28,19 @@ const Index = () => {
 
       <ApiSection />
       {/* bussines product */}
-      <BusinessProduct/>
+      <BusinessProduct />
+      {/* technolgy section */}
+
+      <Technology />
+      {/* get started */}
+      <GetStarted />
+      {/* developer tool */}
+
+      <DeveloperTool />
+      {/* help area */}
+      <HelpArea />
+      {/* footer area */}
+      <Footer />
     </div>
   );
 };

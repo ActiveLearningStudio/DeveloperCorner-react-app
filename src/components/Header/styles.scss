@@ -3,6 +3,10 @@
 .header {
     .Navbar{
         background-color: $body-color;
+        #responsive-navbar-nav{
+            justify-content: flex-end !important;
+           
+        }
         
     }
   

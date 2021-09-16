@@ -14,17 +14,85 @@
     }
   }
 
-  .bussiness-product-section{
+  .bussiness-product-section {
     background-image: url(../../assets/images/busi-background.svg);
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
-    height: 651px;
-    .bussiness-card-content{
-        display: flex;
-        .bussiness-card{
-            border-bottom: 5pX solid $yellow-heading;
-        }
+    // height: 651px;
+    .bussiness-card-content {
+      display: flex;
+      .bussiness-card {
+        border-bottom: 5px solid $yellow-heading;
+      }
     }
+  }
+
+  .techSection {
+    .tech-heading {
+      display: flex;
+    }
+    .tech-content {
+      display: flex;
+      justify-content: space-between;
+      .tech-step {
+        .tech-step-card {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  .developer-get-started {
+    background-image: url("../../assets/images/Rectangle21.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .get-started-content {
+      display: flex;
+    }
+  }
+
+  .developer-tool-area {
+    .developer-tools-content {
+      .developer-tools-cards {
+        display: flex;
+        .developer-tool-card {
+        }
+      }
+    }
+  }
+  .developer-help-area {
+    .develper-content {
+      .developer-help-cards {
+        display: flex;
+        justify-content: space-between;
+        .deveoloper-help-card {
+          border-bottom: 2px solid $yellow-heading;
+        }
+      }
+    }
+  }
+
+  .footer-area {
+    background-image: url("../../assets/images/hero-section.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+
+    .footer-content-area {
+      display: flex;
+      justify-content: space-between;
+      .footer-links {
+        display: flex;
+        flex-direction: column;
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  .bottom-footer {
+    text-align: center;
+    background-color: $blue-text;
   }
 }

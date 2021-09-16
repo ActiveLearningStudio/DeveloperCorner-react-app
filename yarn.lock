@@ -4229,10 +4229,10 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-curriki-design-system@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/curriki-design-system/-/curriki-design-system-1.0.0.tgz#afd60a99f34c4f2d9cc68327ef25d4eb7ee7d059"
-  integrity sha512-9BEXmN8fhe0WlTWz+IgcFFplqA8+pFk2/Og4wIhIfFphdrErHWv3jz6qDOX36lrnHLZe5uZOwSExrcjTWIahcg==
+curriki-design-system@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/curriki-design-system/-/curriki-design-system-1.0.2.tgz#30a3fa7f8089432663daef401a3139092b2aafe8"
+  integrity sha512-rQVzp63AYL0QL5mCvlFVEJqJrlt+bUpoDrNzkNaTCeh18o50CvEyXhXge5WjO+jnOyqN33O34neLJhOhCllF3g==
   dependencies:
     "@babel/polyfill" "^7.12.1"
     "@fortawesome/fontawesome-svg-core" "^1.2.36"
