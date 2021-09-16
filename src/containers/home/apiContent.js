@@ -8,7 +8,7 @@ const ApiSection = () => {
         <div className="container api-section">
         <h2>WHAT CAN you DO WITH THE CURRIKI API?</h2>
         <div className="api-content">
-          <div>
+          <div className="api-content-detail mr-90">
             <h3>Use CurrikiStudio to build and publish interactive courses</h3>
             <p>
               CurrikiStudio is designed to help organizations transform
@@ -31,7 +31,7 @@ const ApiSection = () => {
           <div>
             <img src={ApiImg2} alt="api-content-img" />
           </div>
-          <div>
+          <div className="api-content-detail ml-75">
             <h3>Use CurrikiStudio to build and publish interactive courses</h3>
             <p>
               CurrikiStudio is designed to help organizations transform
@@ -48,7 +48,7 @@ const ApiSection = () => {
         </div>
 
         <div className="api-content">
-          <div>
+          <div className="api-content-detail mr-90">
             <h3>Use CurrikiStudio to build and publish interactive courses</h3>
             <p>
               CurrikiStudio is designed to help organizations transform
@@ -71,7 +71,7 @@ const ApiSection = () => {
           <div>
             <img src={ApiImg4} alt="api-content-img" />
           </div>
-          <div>
+          <div className="api-content-detail ml-75">
             <h3>Use CurrikiStudio to build and publish interactive courses</h3>
             <p>
               CurrikiStudio is designed to help organizations transform

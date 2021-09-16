@@ -17,7 +17,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+              <NavDropdown title="Products" id="collasible-nav-dropdown" color="#285AA5">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
@@ -30,7 +30,7 @@ const Header = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+              <NavDropdown title="Costumers" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
@@ -43,7 +43,7 @@ const Header = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+              <NavDropdown title="Community" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
@@ -56,7 +56,7 @@ const Header = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+              <NavDropdown title="Company" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action

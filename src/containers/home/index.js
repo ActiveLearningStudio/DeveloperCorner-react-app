@@ -14,7 +14,7 @@ const Index = () => {
       <div className="heroSection">
         <div className="container">
           <h2>
-            Build Interactive Learning APps with Currik's API and Developer
+            Build Interactive Learning Apps with Currik's API and Developer
             Tools
           </h2>
           <p>
