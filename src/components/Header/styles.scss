@@ -1,13 +1,35 @@
 @import "../../assets/css/index.scss";
 
 .header {
-    .Navbar{
-        background-color: $body-color;
-        #responsive-navbar-nav{
-            justify-content: flex-end !important;
-           
-        }
-        
+  .Navbar {
+    background-color: $body-color;
+    #responsive-navbar-nav {
+      justify-content: flex-end !important;
     }
-  
+    .nav-link {
+      @media screen and (max-width: 1024px) {
+        margin-left: 20px;
+      }
+      margin-left: 40px;
+      font-family: $rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: $blue-text !important;
+    }
+  }
+}
+.header-login {
+  a {
+    font-family: $Open-Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: $blue-text;
+  }
+}
+.donate-btn {
+  font-weight: bold;
 }

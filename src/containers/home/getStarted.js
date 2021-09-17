@@ -1,5 +1,6 @@
 import React from "react";
 import StartedImg from "../../assets/images/Trynow1.svg";
+import Buttons from "curriki-design-system/dist/utils/Buttons/buttons";
 const GetStarted = () => {
   return (
     <div className="developer-get-started">
@@ -12,7 +13,14 @@ const GetStarted = () => {
               sandbox accounts for testing. We'll guide you thorugh the steps to
               become a Curriki developer.
             </p>
-            <button> GET STARTED</button>
+            {/* <button> GET STARTED</button> */}
+            <Buttons
+              text="GET STARTED"
+              height="45px"
+              width="199px"
+              secondary={true}
+              className="get-started-btn"
+            />
           </div>
           <img src={StartedImg} alt="starter image"></img>
         </div>

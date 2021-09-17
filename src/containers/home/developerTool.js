@@ -1,5 +1,6 @@
 import React from "react";
 import toolpic from "../../assets/images/developertool.svg";
+import Buttons from "curriki-design-system/dist/utils/Buttons/buttons";
 const DeveloperTool = () => {
   return (
     <div className="developer-tool-area">
@@ -10,34 +11,31 @@ const DeveloperTool = () => {
           <div className="developer-tools-cards">
             <div className="developer-tool-card">
               <img src={toolpic} alt="desktop-icon" />
-              <h3>Github Repository</h3>
+              <h3>GitHub Repository</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                Our public github that includes documentation for installation
+                from cloud hosting providers
               </p>
               <a href="www.curriki.org">Call to action text</a>
             </div>
             <div className="developer-tool-card">
               <img src={toolpic} alt="desktop-icon" />
-              <h3>Github Repository</h3>
+              <h3>Docker Repository</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                sodales, quam et blandit.
               </p>
               <a href="www.curriki.org">Call to action text</a>
-            </div> 
+            </div>
             <div className="developer-tool-card">
               <img src={toolpic} alt="desktop-icon" />
-              <h3>Github Repository</h3>
+              <h3>API Documentation</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                sodales, quam et blandit.
               </p>
               <a href="www.curriki.org">Call to action text</a>
-            </div> 
+            </div>
           </div>
 
           {/* tool content #2 */}
@@ -45,37 +43,39 @@ const DeveloperTool = () => {
           <div className="developer-tools-cards">
             <div className="developer-tool-card">
               <img src={toolpic} alt="desktop-icon" />
-              <h3>Github Repository</h3>
+              <h3>Reference Implementation storybook</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="www.curriki.org">Call to action text</a>
+            </div>
+            <div className="developer-tool-card">
+              <img src={toolpic} alt="desktop-icon" />
+              <h3>CookBooks</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                sodales, quam et blandit.
               </p>
               <a href="www.curriki.org">Call to action text</a>
             </div>
             <div className="developer-tool-card">
               <img src={toolpic} alt="desktop-icon" />
-              <h3>Github Repository</h3>
+              <h3>Developer’s Forum</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                sodales, quam et blandit.
               </p>
               <a href="www.curriki.org">Call to action text</a>
-            </div> 
-            <div className="developer-tool-card">
-              <img src={toolpic} alt="desktop-icon" />
-              <h3>Github Repository</h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-              <a href="www.curriki.org">Call to action text</a>
-            </div> 
+            </div>
           </div>
-
-          <button>REGISTER NOW</button>
+          <div className="developer-tools-btn">
+            <Buttons
+              text="REGISTER NOW"
+              height="45px"
+              width="210px"
+              primary={true}
+              className="register-btn"
+            />
+          </div>
+          {/* <button>REGISTER NOW</button> */}
         </div>
       </div>
     </div>

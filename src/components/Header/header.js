@@ -17,7 +17,11 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <NavDropdown title="Products" id="collasible-nav-dropdown" color="#285AA5">
+              <NavDropdown
+                title="Products"
+                id="collasible-nav-dropdown"
+                color="#285AA5"
+              >
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
@@ -69,7 +73,7 @@ const Header = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#deets">
+              <Nav.Link href="#deets" className="header-login">
                 <img src={usericon} alt="user icon" />
                 <a href="curriki.org" target="_blank">
                   Login{" "}
@@ -79,9 +83,12 @@ const Header = () => {
                   Signup
                 </a>
               </Nav.Link>
-              <Buttons text="donate">
-             
-              </Buttons>
+              <Buttons
+                className="donate-btn"
+                text="Donate"
+                height="46px"
+                width="136px"
+              />
             </Nav>
           </Navbar.Collapse>
           {/* </div> */}
