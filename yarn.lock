@@ -4229,7 +4229,7 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-curriki-design-system@1.0.2:
+curriki-design-system@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/curriki-design-system/-/curriki-design-system-1.0.2.tgz#30a3fa7f8089432663daef401a3139092b2aafe8"
   integrity sha512-rQVzp63AYL0QL5mCvlFVEJqJrlt+bUpoDrNzkNaTCeh18o50CvEyXhXge5WjO+jnOyqN33O34neLJhOhCllF3g==
