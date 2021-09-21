@@ -538,48 +538,4 @@
    }
   }
  }
-
- .footer-area {
-  background-image: url('../../assets/images/hero-section.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 20px;
-
-  .footer-content-area {
-   display: flex;
-   justify-content: space-between;
-   @media screen and (max-width: 767px) {
-    flex-direction: column;
-   }
-   .footer-links {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    a {
-     font-family: $rubik;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 19px;
-     color: $white-text;
-     text-decoration: none;
-     margin-bottom: 25px;
-    }
-   }
-  }
- }
- .bottom-footer {
-  padding: 19px 0;
-  text-align: center;
-  // background-color: $blue-text;
-  background: #1f4071;
-  p {
-   font-family: $Open-Sans;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 16px;
-   line-height: 22px;
-   color: $white-text;
-  }
- }
 }

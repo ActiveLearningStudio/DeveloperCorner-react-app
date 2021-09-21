@@ -1,6 +1,6 @@
 import React from 'react';
 import toolpic from '../../assets/images/developertool.svg';
-// import Buttons from "curriki-design-system/dist/utils/Buttons/buttons";
+import Buttons from 'curriki-design-system/dist/utils/Buttons/buttons';
 const DeveloperTool = () => {
  return (
   <div className="developer-tool-area">
@@ -54,13 +54,13 @@ const DeveloperTool = () => {
       </div>
      </div>
      <div className="developer-tools-btn">
-      {/* <Buttons
-              text="REGISTER NOW"
-              height="45px"
-              width="210px"
-              primary={true}
-              className="register-btn"
-            /> */}
+      <Buttons
+       text="REGISTER NOW"
+       height="45px"
+       width="210px"
+       primary={true}
+       className="register-btn"
+      />
      </div>
      {/* <button>REGISTER NOW</button> */}
     </div>

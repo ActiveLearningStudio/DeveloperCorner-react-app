@@ -10,7 +10,7 @@ const Header = () => {
   <div className="header">
    <Navbar collapseOnSelect expand="xl" bg="light" className="Navbar">
     <Container>
-     <Navbar.Brand href="#home">
+     <Navbar.Brand href="/">
       <img src={Brand} alt="developer-hub-brand" />
      </Navbar.Brand>
      {/* <div className="navbar-dropdown"> */}
@@ -55,7 +55,7 @@ const Header = () => {
          Signup
         </a>
        </Nav.Link>
-       <Buttons className="donate-btn" text="Donate" height="46px" width="136px" />
+       <Buttons className="donate-btn" primary text="Donate" height="46px" width="136px" />
       </Nav>
      </Navbar.Collapse>
      {/* </div> */}

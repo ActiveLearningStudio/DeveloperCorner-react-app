@@ -1,0 +1,129 @@
+.hero-section {
+ height: 140px;
+ display: flex;
+ align-items: center;
+ margin-bottom: 101px;
+ @media screen and (max-width: 767px) {
+  height: auto;
+ }
+ .hero-text {
+  width: 1148px;
+  margin: auto;
+
+  @media screen and (max-width: 1100px) {
+   padding: 30px 20px;
+   width: 100%;
+  }
+ }
+}
+.main-container {
+ max-width: 1148px;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 101px;
+
+ .forum-section {
+  width: 673px;
+
+  .forum-header {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 30px;
+
+   .forum-nav {
+    display: flex;
+    align-items: center;
+    width: 118px;
+    justify-content: space-between;
+   }
+   .forum-search {
+    display: flex;
+    width: 360px;
+    justify-content: space-between;
+
+    .form-input {
+     width: 300px;
+     height: 45px;
+     border: 1px solid #515151;
+     box-sizing: border-box;
+     box-shadow: -3px 5px 10px rgba(229, 238, 255, 0.35);
+     border-radius: 25px;
+     outline: none;
+     padding-left: 22px;
+    }
+    .search-btn {
+     width: 45px;
+     height: 45px;
+     svg {
+      color: #ffff;
+      font-size: 20px;
+     }
+    }
+   }
+  }
+
+  .forum-table {
+   .table {
+    border: 1px solid #959595;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    thead {
+     background: #e5e5e5;
+     height: 50px;
+    }
+    tbody tr {
+     height: 50px;
+     padding: 14px 15px;
+    }
+   }
+  }
+ }
+ .login-section {
+  width: 400px;
+  border: 1px solid #959595;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 30px 50px;
+
+  .login-buttons {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 30px;
+
+   .yellow-btn {
+    background-color: #f8af2c;
+    color: #fff;
+   }
+   .white-btn {
+    background-color: transparent;
+    border: 1px solid #959595;
+    color: #959595 !important;
+    box-sizing: border-box;
+    border-radius: 25px;
+   }
+  }
+  .login-forum {
+   form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+     margin-bottom: 16px;
+     height: 45px;
+     border: 1px solid #515151;
+     box-sizing: border-box;
+     box-shadow: -3px 5px 10px rgba(229, 238, 255, 0.35);
+     border-radius: 25px;
+     outline: none;
+     padding-left: 22px;
+    }
+
+    label {
+     margin-bottom: 47px;
+    }
+   }
+  }
+ }
+}
