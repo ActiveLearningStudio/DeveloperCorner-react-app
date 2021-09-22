@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../../assets/images/curriki_new_logo 1.svg';
+import '../Header/styles.scss';
 const Index = () => {
  return (
   <>

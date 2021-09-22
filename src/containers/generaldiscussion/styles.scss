@@ -1,0 +1,171 @@
+.hero-section {
+ height: 140px;
+ display: flex;
+ align-items: center;
+ margin-bottom: 101px;
+ @media screen and (max-width: 767px) {
+  height: auto;
+ }
+ .hero-text {
+  width: 1148px;
+  margin: auto;
+
+  @media screen and (max-width: 1100px) {
+   padding: 30px 20px;
+   width: 100%;
+  }
+ }
+}
+.General-Discussion-container {
+ max-width: 1148px;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap-reverse;
+ @media screen and (max-width: 1069px) {
+  padding: 0 20px;
+ }
+
+ .general-section {
+  width: 877px;
+  margin-bottom: 101px;
+  @media screen and (max-width: 767px) {
+   width: 100%;
+  }
+
+  .nav-header {
+   max-width: 268px;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 22px;
+   .cursor {
+    cursor: pointer;
+   }
+  }
+  .update {
+   max-width: 685px;
+   display: flex;
+   border: 1px solid #959595;
+   box-sizing: border-box;
+   border-radius: 25px;
+   justify-content: space-between;
+   padding: 12px 45px;
+   align-items: center;
+   margin-bottom: 30px;
+
+   @media screen and (max-width: 767px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 15px;
+   }
+  }
+  .table-blog {
+   margin-bottom: 50px;
+   @media screen and (max-width: 767px) {
+    width: 100%;
+    overflow-y: scroll;
+   }
+   .table-heading {
+    margin-bottom: 10px;
+   }
+   .table {
+    border: 1px solid #959595;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    thead {
+     background: #e5e5e5;
+     height: 50px;
+     tr {
+      :not(:first-child) {
+       text-align: center;
+      }
+     }
+    }
+    tbody tr {
+     height: 50px;
+     padding: 14px 15px;
+     :not(:first-child) {
+      text-align: center;
+     }
+     td {
+      .started {
+       padding-top: 11.5px;
+       display: flex;
+      }
+      .last-post {
+       display: flex;
+       justify-content: center;
+       padding-top: 11.5px;
+      }
+     }
+    }
+   }
+  }
+  .login {
+   .login-forum {
+    border: 1px solid #959595;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 30px 50px;
+    margin-top: 10px;
+    @media screen and (max-width: 767px) {
+     padding: 30px 10px;
+    }
+
+    form {
+     max-width: 300px;
+     display: flex;
+     flex-direction: column;
+     @media screen and (max-width: 767px) {
+      max-width: 100%;
+     }
+     .form-name {
+      padding: 0 0 5px 22px;
+     }
+     input {
+      margin-bottom: 16px;
+      height: 45px;
+      border: 1px solid #515151;
+      box-sizing: border-box;
+      box-shadow: -3px 5px 10px rgba(229, 238, 255, 0.35);
+      border-radius: 25px;
+      outline: none;
+      padding-left: 22px;
+     }
+
+     label {
+      margin: 4px 0 47px;
+      display: flex;
+      text-align: center;
+      height: 25px;
+      padding-left: 22px;
+      .checked {
+       width: 25px;
+       height: 25px;
+       margin-right: 15px;
+       border: 2px solid #084892;
+      }
+     }
+    }
+   }
+  }
+ }
+ .archives-section {
+  border-left: 1px solid #084892;
+  padding-left: 30px;
+  @media screen and (max-width: 1069px) {
+   margin-bottom: 70px;
+  }
+  .archives-link {
+   display: flex;
+   flex-direction: column;
+   padding-top: 30px;
+
+   .spase {
+    padding-bottom: 10px;
+    cursor: pointer;
+   }
+  }
+ }
+}

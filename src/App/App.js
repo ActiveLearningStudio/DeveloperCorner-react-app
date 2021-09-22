@@ -1,11 +1,11 @@
-import ContainerIndex from "../containers/index";
+import ContainerIndex from '../containers/index';
 import './App.css';
 function App() {
-  return (
-    <div>
-      <ContainerIndex />
-    </div>
-  );
+ return (
+  <div>
+   <ContainerIndex />
+  </div>
+ );
 }
 
 export default App;

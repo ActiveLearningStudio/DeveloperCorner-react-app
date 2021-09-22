@@ -10,7 +10,7 @@ const Header = () => {
   <div className="header">
    <Navbar collapseOnSelect expand="xl" bg="light" className="Navbar">
     <Container>
-     <Navbar.Brand href="#home">
+     <Navbar.Brand href="/">
       <img src={Brand} alt="developer-hub-brand" />
      </Navbar.Brand>
      {/* <div className="navbar-dropdown"> */}
@@ -18,9 +18,11 @@ const Header = () => {
      <Navbar.Collapse id="responsive-navbar-nav">
       <Nav>
        <NavDropdown title="Products" id="collasible-nav-dropdown" color="#285AA5">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        <NavDropdown.Item href="/currikiarchitecture">Curriki Architecture</NavDropdown.Item>
+        <NavDropdown.Item href="/databaseschemas">Database Schemas</NavDropdown.Item>
+        <NavDropdown.Item href="/deployingthecurrikiplatfrom">
+         Deploying The Curriki Platfrom
+        </NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
        </NavDropdown>
@@ -47,15 +49,15 @@ const Header = () => {
        </NavDropdown>
        <Nav.Link href="#deets" className="header-login">
         <img src={usericon} alt="user icon" />
-        <a href="curriki.org" target="_blank">
+        <a href="/currikiforum" target="_blank">
          Login{' '}
         </a>
         /{' '}
-        <a href="curriki.org" target="_blank">
+        <a href="/generaldiscussion" target="_blank">
          Signup
         </a>
        </Nav.Link>
-       <Buttons className="donate-btn" text="Donate" height="46px" width="136px" />
+       <Buttons className="donate-btn" primary text="Donate" height="46px" width="136px" />
       </Nav>
      </Navbar.Collapse>
      {/* </div> */}
