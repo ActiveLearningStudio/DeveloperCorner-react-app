@@ -15,14 +15,13 @@ const Login = () => {
       initialValues={{ email: '', password: '', toggle: false, checked: [] }}
       validate={(values) => {
        const errors = {};
+       if (!values.password) {
+        errors.password = 'Required';
+       }
        if (!values.email) {
         errors.email = 'Required';
        } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
         errors.email = 'Invalid email address';
-       } else if (!values.password) {
-        errors.password = 'Required';
-       } else if (!values.checked) {
-        errors.checked = 'Required';
        }
        return errors;
       }}
@@ -44,7 +43,7 @@ const Login = () => {
        /* and other goodies */
       }) => (
        <form onSubmit={handleSubmit}>
-        <Headings className="" color="#515151" headingType="body3" text="Username" />
+        <Headings className="form-name" color="#515151" headingType="body2" text="Username" />
         <input
          type="email"
          name="email"
@@ -53,7 +52,7 @@ const Login = () => {
          value={values.email}
         />
         {errors.email && touched.email && errors.email}
-        <Headings className="" color="#515151" headingType="body3" text="Password" />
+        <Headings className="form-name" color="#515151" headingType="body2" text="Password" />
         <input
          type="password"
          name="password"
@@ -63,10 +62,9 @@ const Login = () => {
         />
         {errors.password && touched.password && errors.password}
         <label>
-         <Field type="checkbox" onChange={handleChange} name="checked" value={values.checked} />
-         {values.checked}
+         <Field type="checkbox" className="checked" name="checked" value="Keep me signed in" />
+         <Headings className="" color="#515151" headingType="body2" text="Keep me signed in" />
         </label>
-        {errors.checked && touched.checked && errors.checked}
         <Buttons primary type="submit" text="Login" width="143px" />
         {/* <button type="submit" disabled={isSubmitting}>
              Submit

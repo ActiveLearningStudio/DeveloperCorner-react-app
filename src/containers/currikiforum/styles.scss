@@ -22,25 +22,41 @@
  display: flex;
  justify-content: space-between;
  margin-bottom: 101px;
+ flex-wrap: wrap-reverse;
+ @media screen and (max-width: 1069px) {
+  padding: 0 20px;
+ }
 
  .forum-section {
   width: 673px;
+  @media screen and (max-width: 1069px) {
+   width: 100%;
+  }
 
   .forum-header {
    display: flex;
    justify-content: space-between;
    margin-bottom: 30px;
+   @media screen and (max-width: 767px) {
+    flex-direction: column;
+   }
 
    .forum-nav {
     display: flex;
     align-items: center;
     width: 118px;
     justify-content: space-between;
+    @media screen and (max-width: 767px) {
+     margin-bottom: 25px;
+    }
    }
    .forum-search {
     display: flex;
     width: 360px;
     justify-content: space-between;
+    @media screen and (max-width: 767px) {
+     width: 100%;
+    }
 
     .form-input {
      width: 300px;
@@ -72,10 +88,18 @@
     thead {
      background: #e5e5e5;
      height: 50px;
+     tr {
+      :not(:first-child) {
+       text-align: center;
+      }
+     }
     }
     tbody tr {
      height: 50px;
      padding: 14px 15px;
+     :not(:first-child) {
+      text-align: center;
+     }
     }
    }
   }
@@ -86,6 +110,10 @@
   box-sizing: border-box;
   border-radius: 5px;
   padding: 30px 50px;
+  @media screen and (max-width: 1069px) {
+   width: 100%;
+   margin-bottom: 100px;
+  }
 
   .login-buttons {
    display: flex;
@@ -108,7 +136,9 @@
    form {
     display: flex;
     flex-direction: column;
-
+    .form-name {
+     padding: 0 0 5px 22px;
+    }
     input {
      margin-bottom: 16px;
      height: 45px;
@@ -121,7 +151,17 @@
     }
 
     label {
-     margin-bottom: 47px;
+     margin: 4px 0 47px;
+     display: flex;
+     text-align: center;
+     height: 25px;
+     padding-left: 22px;
+     .checked {
+      width: 25px;
+      height: 25px;
+      margin-right: 15px;
+      border: 2px solid #084892;
+     }
     }
    }
   }

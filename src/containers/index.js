@@ -6,6 +6,7 @@ import CurrikiArchitecture from './currikiarchitecture/index';
 import DatabaseSchemas from './databaseschemas';
 import DeployingTheCurrikiPlatfrom from './deployingthecurrikiplatfrom';
 import CurrikiForum from './currikiforum';
+import GeneralDiscussion from './generaldiscussion';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const Index = () => {
@@ -28,6 +29,9 @@ const Index = () => {
      </Route>
      <Route exact path="/currikiforum">
       <CurrikiForum />
+     </Route>
+     <Route exact path="/generaldiscussion">
+      <GeneralDiscussion />
      </Route>
     </Switch>
     <Footer />
