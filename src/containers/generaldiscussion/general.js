@@ -12,11 +12,11 @@ const General = () => {
   <>
    <div className="general-section">
     <div className="nav-header">
-     <Headings className=" cursor" color="#515151" headingType="body3" text="Home" />
+     <Headings className=" cursor" color="#515151" headingType="link1" text="Home" />
      <img src={Arrow} alt="arrow" />
-     <Headings className=" cursor" color="#515151" headingType="body3" text="Forums" />
+     <Headings className=" cursor" color="#515151" headingType="link1" text="Forums" />
      <img src={Arrow} alt="arrow" />
-     <Headings className=" cursor" color="#515151" headingType="body3" text="General Discussion" />
+     <Headings className=" cursor" color="#515151" headingType="link1" text="General Discussion" />
     </div>
     <div className="update">
      <Headings

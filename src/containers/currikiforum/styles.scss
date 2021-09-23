@@ -49,6 +49,21 @@
     @media screen and (max-width: 767px) {
      margin-bottom: 25px;
     }
+    .h-link {
+     text-decoration: none;
+     cursor: pointer;
+    }
+    .active {
+     color: #084892 !important;
+    }
+    .curriki-utility-headings.link-one:hover {
+     color: #084892 !important;
+    }
+    // .curriki-utility-headings.link-one {
+    //  &:checked {
+    //   color: #084892 !important;
+    //  }
+    // }
    }
    .forum-search {
     display: flex;
