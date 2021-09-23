@@ -11,9 +11,9 @@ const Forums = () => {
    <div className="forum-section">
     <div className="forum-header">
      <div className="forum-nav">
-      <Headings className="" color="#515151" headingType="body3" text="Home" />
+      <Headings className="h-link" color="#515151" headingType="body3" text="Home" />
       <img src={Arrow} alt="arrow" />
-      <Headings className="" color="#515151" headingType="body3" text="Forums" />
+      <Headings className="h-link" color="#515151" headingType="body3" text="Forums" />
      </div>
      <div className="forum-search">
       <input className="form-input" type="search" placeholder="Search" />

@@ -3850,7 +3850,7 @@ core-js@^2.4.0, core-js@^2.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
-core-js@^3.6.5:
+core-js@^3.18.0, core-js@^3.6.5:
   version "3.18.0"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.18.0.tgz#9af3f4a6df9ba3428a3fb1b171f1503b3f40cc49"
   integrity sha512-WJeQqq6jOYgVgg4NrXKL0KLQhi0CT4ZOCvFL+3CQ5o7I6J8HkT5wd53EadMfqTDp1so/MT1J+w2ujhWcCJtN7w==
@@ -4240,10 +4240,10 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-curriki-design-system@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/curriki-design-system/-/curriki-design-system-1.0.4.tgz#5a40d61101ae132e29fbd0cc9fdcfdb21cfca2f9"
-  integrity sha512-eD/Xzmelobqh9s7S1qZgpKx5JpRcvYRSQYeUnyTahvasAh9Ecd6/lSvFVDZzUphTZJypm3ZHvmRn778/HAyDHQ==
+curriki-design-system@1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/curriki-design-system/-/curriki-design-system-1.0.5.tgz#7e233565e420a0f7da93ec07b7f66d453901f7c2"
+  integrity sha512-G0HvEbK+yYad4W+vu2u+La5XJYDVfjfYcp3Y2rJZ8HRFLFZHQsNsqQ9SXBMgWq9o/350qCoR0QxXVWqT2DBxXA==
   dependencies:
     "@babel/polyfill" "^7.12.1"
     "@fortawesome/fontawesome-svg-core" "^1.2.36"
@@ -4253,11 +4253,13 @@ curriki-design-system@1.0.4:
     "@testing-library/jest-dom" "^5.11.4"
     "@testing-library/react" "^11.1.0"
     "@testing-library/user-event" "^12.1.10"
+    bootstrap "^5.1.1"
     classnames "^2.3.1"
+    core-js "^3.18.0"
     node-sass "4.14.1"
     react "^17.0.2"
     react-animations "^1.0.0"
-    react-bootstrap "^1.6.1"
+    react-bootstrap "^1.6.3"
     react-dom "^17.0.2"
     react-scripts "4.0.3"
     styled-components "^5.3.0"
@@ -9851,7 +9853,7 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
-react-bootstrap@^1.6.1, react-bootstrap@^1.6.3:
+react-bootstrap@^1.6.3:
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-1.6.3.tgz#6c2b27ed320b95a690ac416ddbb11983de1f954d"
   integrity sha512-zsd4l0g68pusOmJ/R5LhTfofT+9RniCwcZsMMNFGJo97d1vT1H2nGlbhLWp/j/pfeXXj9zzR8ugUtKkadcoWnA==
